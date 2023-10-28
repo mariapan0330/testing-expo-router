@@ -1,7 +1,6 @@
 import { View, Text, Button } from "react-native";
 import React from "react";
 import { useRouter } from "expo-router";
-import Home from "./(tabs)/home";
 
 const LoadingScreen = () => {
   const router = useRouter();
