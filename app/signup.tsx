@@ -2,13 +2,13 @@ import { View, Text } from "react-native";
 import React from "react";
 import { Link } from "expo-router";
 
-const modal = () => {
+const SignUp = () => {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>modal!!!!</Text>
-      <Link href="/">Go Back to Login</Link>
+      <Text>SignUp</Text>
+      <Link href="/">Go to Login</Link>
     </View>
   );
 };
 
-export default modal;
+export default SignUp;
